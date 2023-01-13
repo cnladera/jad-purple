@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 1.3333334
-    y: 90
+    x: 7.3333335
+    y: 51.333336
     width: 1264
     height: 613.3334
   m_ShowMode: 4
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 677, y: 492}
   m_MaxSize: {x: 14001, y: 14042}
   vertical: 0
-  controlID: 53
+  controlID: 120
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -320,8 +320,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1.3333334
-    y: 413.33334
+    x: 7.3333335
+    y: 374.6667
     width: 986
     height: 250
   m_ViewDataDictionary: {fileID: 0}
@@ -338,19 +338,19 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Code Ninja\starting unity
+  m_LastProjectPath: C:\Users\Code Ninja\Documents\GitHub\jad-purple\Jad-Color-Drop
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 86370000
-    m_LastClickedID: 14214
+    m_SelectedIDs: 7e370000
+    m_LastClickedID: 14206
     m_ExpandedIDs: 000000007e37000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -456,8 +456,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 988.6667
-    y: 120
+    x: 994.6667
+    y: 81.333336
     width: 276
     height: 543
   m_ViewDataDictionary: {fileID: 0}
@@ -494,8 +494,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1.3333334
-    y: 120
+    x: 7.3333335
+    y: 81.333336
     width: 243
     height: 272
   m_ViewDataDictionary: {fileID: 0}
@@ -549,8 +549,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 245.33334
-    y: 120
+    x: 251.33334
+    y: 81.333336
     width: 741
     height: 272
   m_ViewDataDictionary: {fileID: 0}
@@ -664,8 +664,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 252
-    y: 80.66667
+    x: 251.33334
+    y: 81.333336
     width: 741
     height: 272
   m_ViewDataDictionary: {fileID: 0}
