@@ -15,4 +15,10 @@ public class Collectibles : MonoBehaviour
     {
 
     }
+
+    //If an object collides with a trigger
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Score.score++;
+    }
 }

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8324910318186821865}
   - component: {fileID: 3395825931513507906}
+  - component: {fileID: 1918019588845736648}
   m_Layer: 0
   m_Name: Spikes
   m_TagString: Untagged
@@ -46,6 +47,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f73868909b453a44cb25fbf69078eb6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 6
+--- !u!114 &1918019588845736648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8324910318186821867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23d74e7dfb8f3d64387e8062319d6a1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToDestruction: 8
 --- !u!1 &8324910318530916343
 GameObject:
   m_ObjectHideFlags: 0
@@ -56,6 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8324910318530916340}
   - component: {fileID: 8324910318530916298}
+  - component: {fileID: 2360178189703930009}
   m_Layer: 0
   m_Name: Score
   m_TagString: ScoreCollider
@@ -103,6 +119,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2360178189703930009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8324910318530916343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f320352405e2f4e4d9a6b1159c9de05a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8324910319232949182
 GameObject:
   m_ObjectHideFlags: 0
