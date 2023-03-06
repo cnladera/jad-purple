@@ -13,18 +13,23 @@ public class PlayerControls : MonoBehaviour
     public float movementSpeed = 10f;
     [Header("Default Directional Movement Speed")]
     public float movement = 0f;
+
+    [Header("Score Text")]
+    public Text scoreText;
+
+    private float topScore = 0.0f;
     // Start is called before the first frame update
     void Start()
     {
-        rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        movementSpeed = Input.GetAxis("Horizontal") * movementSpeed;
+        movement = Input.GetAxis("Horizontal") * movementSpeed;
 
-        if (movementSpeed < 0) 
+        if (movement < 0) 
         {
             this.GetComponent<SpriteRenderer>().flipX = false;
         }
@@ -33,6 +38,11 @@ public class PlayerControls : MonoBehaviour
         {
             this.GetComponent<SpriteRenderer>().flipX = true;
         }
+        if (rb.velocity.y > 0 && transform.position.y > topScore)
+        {
+            topScore = transform.position.y;
+        }
+        scoreText.text = "Score: " + Mathf.Round(topScore).ToString();
     }
     
     //Fixedupdate called every fixed frame-rate frame
@@ -49,4 +59,7 @@ public class PlayerControls : MonoBehaviour
 
     //Collision function
     private void OnCollisionEnter2D(Collision2D collision)
+    {
+        rb.velocity = new Vector3(rb.velocity.x, downSpeed, 0);
+    }
 }
